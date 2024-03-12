@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "title": "Custom blogroll layout",
+  "description": "Blogroll sidebar on home page",
+  "fields": [
+    {
+      "field": "params.blogroll_about",
+      "label": "About",
+      "placeholder": "Intro text to include above blogs list."
+    }
+  ]
+}
