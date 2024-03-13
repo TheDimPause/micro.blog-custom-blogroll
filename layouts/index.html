@@ -77,10 +77,6 @@
 <div class="home_blogroll">
 	<b>Blogroll</b>	
 
-	{{ if ne .Site.Params.blogroll_about "" }}
-		<p>{{ .Site.Params.blogroll_about }}</p>
-	{{ end }}
-
 	<ul>
 		{{ range .Site.Data.blogrolls.recommendations }}
 			<li><a href="{{ .url }}">{{ .name }}: <span>{{ (urls.Parse .url).Hostname }}</span></a></li>
